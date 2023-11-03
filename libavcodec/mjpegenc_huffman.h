@@ -50,7 +50,7 @@ void ff_mjpeg_encode_huffman_close(MJpegEncHuffmanContext *s,
  */
 typedef struct PTable {
     int value;  ///< input value
-    int prob;   ///< number of occurences of this value in input
+    int prob;   ///< number of occurrences of this value in input
 } PTable;
 
 /**
